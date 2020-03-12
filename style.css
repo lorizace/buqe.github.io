@@ -63,10 +63,11 @@ a{
 	display:grid;
 	grid-gap: 30px;
 	 grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-	transition: 1s;	
+		
 }
 .images:hover{
-	
+
+	transition: 1s;
 	transform: rotate(-7deg);
 }
 .images > img {
