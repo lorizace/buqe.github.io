@@ -1,0 +1,93 @@
+div{
+	cursor: pointer;
+}
+/* Navbar  */
+.green{
+	background-image:
+    linear-gradient(
+      to right, 
+      red, 
+      #f06d06, 
+      rgb(255, 255, 0), 
+      green
+    );
+	transition: 1s;
+}
+.green:hover{
+	box-shadow: 5px 10px 20px  grey;
+}
+.navbar{
+	display: flex;
+	margin:0px;
+	font-size: 1.2em;
+	text-decoration: none;
+}
+.top {
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+li {
+	padding: 15px;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+@media only screen and (max-width: 600px){
+	.navbar {
+		padding: 0px;
+		font-size: 0.9em;
+	}}
+
+.end{
+	margin-left: auto;
+}
+
+/* Cover */
+.blue{
+	display:flex;
+	justify-content: center;
+	height: 50vh;
+	align-items: center;
+
+}
+
+.cover {
+	width: 50%;
+}
+
+/* Grid */
+.yellow{
+	display:grid;
+	grid-gap: 30px;
+	 grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	transition: 1s;	
+}
+.images:hover{
+	
+	transform: rotate(-7deg);
+}
+.images > img {
+	width: 100%;
+	
+
+
+}
+/* Footer */
+.orange{
+	background-color: orange ;
+	text-align: center;
+	font-family: fantasy;
+	width: 200px;
+}
+.position {
+	display: flex;
+	justify-content: center;
+}
+
+}
+body {
+	margin: 0px;
+}
